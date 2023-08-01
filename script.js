@@ -212,15 +212,15 @@
 ////////////////////////////.................................///////////////////////////////
 //4.Return all the palindromes in an array
 //(iv)-by using arrow function =>.
-let rawData=[121,"dad","liril","hello",757];
-const getplindrmes=(rawData)=>{
-    let newData=[];
-    for(let i=0;i<rawData.length;i++){
-        if(rawData[i]==rawData[i].toString().split("").reverse().join("")){
-        newData.push(rawData[i])
-    }
+// let rawData=[121,"dad","liril","hello",757];
+// const getplindrmes=(rawData)=>{
+//     let newData=[];
+//     for(let i=0;i<rawData.length;i++){
+//         if(rawData[i]==rawData[i].toString().split("").reverse().join("")){
+//         newData.push(rawData[i])
+//     }
    
-    } return newData
+//     } return newData
     
-}
-console.log(getplindrmes(rawData))
+// }
+// console.log(getplindrmes(rawData))
